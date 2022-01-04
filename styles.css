@@ -1,0 +1,120 @@
+
+/* writing this becoz this makes the html page of min height =100%  if it was less hence ensuring that the footer remains at bottom always */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #eba83a;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  overflow: hidden;
+
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+.w {
+  background-image: url('images/crash.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.a {
+  background-image: url('images/kick.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.s {
+  background-image: url('images/snare.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.d {
+  background-image: url('images/tom1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.j {
+  background-image: url('images/tom2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.k {
+  background-image: url('images/tom3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.l {
+  background-image: url('images/tom4.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.set 
+{
+  padding:20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/*on pressing button this class adds to button */
+.pressed {
+  box-shadow: 0 5px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #ffc93c;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
